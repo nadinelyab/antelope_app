@@ -1,0 +1,35 @@
+<body>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+                  <!-- Title -->
+                <h1><%=@animal%></h1>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src=<%=@hash[@animal][0]%>>
+
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead"> <%=@hash[@animal][1]%></p>
+
+                <hr>
+
+                
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
