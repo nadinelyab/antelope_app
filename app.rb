@@ -9,8 +9,8 @@ get "/species/:animal" do |animal|
 	#@animals = [ {name: 'Kudu', image: 'http://africafreak.com/blog/wp-content/uploads/2009/09/Kudu-Male.jpg', description: 'The kudu is the world’s second largest antelope species (behind the eland), reaching up to 1,2 m at shoulder height and weighing as much as 270 kg. It is by far one of the antelopes I admire the most, and always a delight to watch in the wild!
 
 #These rather shy browsers are found in well-bushed regions and hills, and can remain motionless for long periods of time when feeling threatened. Kudu bulls have highly recognizable long, spiral horns (as portrayed above). As with most antelope species, females are hornless and relatively smaller in size.'}, 
-		#{name: 'Impala', image: '', description: },
-		#{name: 'Springbok', image: , description: }]
+		#{name: 'Impala', image: 'https://www.awf.org/sites/default/files/media/gallery/wildlife/Impala/imp_bill2.jpg?itok=FyZF5AyW', description: },
+		#{name: 'Springbok', image: 'http://www.redintoothandclaw.com/uploaded_images/Springbok_etosha-757534.jpg' , description: }]
 	erb :species
 end
 
