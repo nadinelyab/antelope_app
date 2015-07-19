@@ -9,3 +9,4 @@ get "/species/:animal" do |animal|
 	animals = [ {name: 'Kudu', image: , description: }, {name: ''}]
 	erb :species
 end
+
