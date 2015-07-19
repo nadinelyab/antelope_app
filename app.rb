@@ -14,9 +14,6 @@ get "/species/:animal" do |animal|
 	erb :species
 end
 
-<<<<<<< HEAD
-=======
 get "/compare" do
 
 end
->>>>>>> f1a730a2e9e4060e2846dc9bbc42bbf8d4be03b1
